@@ -33,8 +33,7 @@ const formEl=document.querySelector(".form")
             btn.style.backgroundColor="green"
             btn.value="Submitted"
             console.log(nameEl.value)
-            console.log(emailEl.value)
-            
+            console.log(emailEl.value) 
            }
             nameEl.value="";
             emailEl.value="";
