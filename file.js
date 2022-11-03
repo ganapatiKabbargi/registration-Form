@@ -12,8 +12,12 @@
            if(nameEl.value === '' || emailEl.value === '' ){
             alert("Please fill all the fields")
            }else{
-            localStorage.setItem("username",nameEl.value)
-            localStorage.setItem("email",emailEl.value)
+            let user={
+                username : nameEl.value,
+                email : emailEl.value
+            }
+            localStorage.setItem("userDetails",JSON.stringify(user))
+            console.log(JSON.parse(localStorage.getItem("userDetails")))
            }
             nameEl.value="";
             emailEl.value="";  
