@@ -2,12 +2,13 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
    }
    h1{
        text-align: center;
        font-family: sans-serif;
    }
+   
   .form{
    background-color: aliceblue;
    width: 500px;
@@ -42,11 +43,32 @@ body{
    padding: 0px;
   }
   .items li{
-   width: 500px;
-   list-style: none;
-   background-color: aliceblue;
-   margin-bottom: 10px;
-   padding: 18px;
+   /* min-width:500px; */
+   list-style:none;
+
+   margin-bottom: 5px;
+   padding: 8px 12px;
    border-radius: 10px;
    font-size: 18px;
+   
   }
+ .edit{
+   
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+ }
+ .delete{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: #fff; 
+ }
